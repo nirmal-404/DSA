@@ -1,0 +1,55 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# Eclipse-specific
+.project
+.classpath
+.settings/
+.loadpath
+
+# Build directories
+bin/
+target/
+build/
+
+# Maven
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ (in case opened with IDEA)
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Others
+.DS_Store
+Thumbs.db
