@@ -3,6 +3,15 @@ package _24_binary_search_tree;
 public class Main {
 	public static void main(String[] args) {
 		
+		// Binary Search Tree = A tree data structure, where each node is greater than its left child, but less than its right.
+
+		// Benefit: Easy to locate a node when they are in this order.
+
+		// Time complexity: Best case O(log n)
+		//                  Worst case O(n)
+
+		// Space complexity: O(n)
+		                      
 		BinarySearchTree tree = new BinarySearchTree();
 		
 		tree.insert(new Node(5));
