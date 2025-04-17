@@ -72,13 +72,10 @@ public class Main {
 		
 		while (l < leftSize) {
 			array[i++] = leftArray[l++];
-			
 		}
 		
 		while (r < rightSize) {
-			array[i] = rightArray[r];
-			i++;
-			r++;
+			array[i++] = rightArray[r++];	
 		}
 	}
 
